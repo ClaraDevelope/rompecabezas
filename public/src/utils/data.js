@@ -8,5 +8,5 @@ export const PIECES = [
   { src: '/public/7.jpg', id: 7 },
   { src: '/public/8.jpg', id: 8 },
   { src: '/public/9.jpg', id: 9 },
-  { src: ' ', id: 9 }
+  { src: ' ', id: 10 }
 ]
