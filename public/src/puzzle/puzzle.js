@@ -78,7 +78,7 @@ export const puzzle = (array) => {
     divResultPuzzle.id = 'result'
     const imageResult = document.createElement('img')
     imageResult.className = 'image-result'
-    imageResult.src = 'public/original_image.jpg'
+    imageResult.src = 'original_image.jpg'
     divResultPuzzle.append(imageResult)
 
     divContainerPuzzle.append(divDisorderedPuzzle, divResultPuzzle)
@@ -105,7 +105,7 @@ export const puzzle = (array) => {
         divPiece.innerHTML =
           imagesArray[count] === 9
             ? `<div class="image target" data-index="${imagesArray[count]}"></div>`
-            : `<img src="public/${imagesArray[count]}.jpg" class="image" data-index="${imagesArray[count]}"/>`
+            : `<img src="${imagesArray[count]}.jpg" class="image" data-index="${imagesArray[count]}"/>`
 
         count += 1
         const divDisorderedPuzzle = document.querySelector('#disordered')
